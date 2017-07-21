@@ -45,4 +45,8 @@ public class CrimeLabel {
         }
         return  null;
     }
+
+    public void addCrime(Crime crime) {
+        mCrimes.add(crime);
+    }
 }
